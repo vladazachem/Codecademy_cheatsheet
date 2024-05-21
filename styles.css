@@ -1,0 +1,49 @@
+html {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+
+thead {
+    background-color: rgb(250,235,215);
+    text-align:left;
+    font-size: large;
+}
+
+th,
+td {
+  padding: 20px;
+  border-bottom: 1px solid rgb(97, 89, 73);
+  border-right: 1px solid black;
+}
+
+th {
+    font-weight:900;
+
+}
+
+span {
+    font-weight: 600;
+}
+
+code {
+    font-family: monospace;
+    font-weight: 600;
+    background-color: rgb(196, 196, 177);
+    padding: 3px;
+    border-radius: .125rem;
+  }
+
+
+a {
+    color: rgb(4, 136, 136);
+}
